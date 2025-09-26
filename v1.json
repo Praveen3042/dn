@@ -1,0 +1,53 @@
+{
+  "_id": {
+    "$oid": "68d6307d19a64d9625bd0185"
+  },
+  "companyId": "mcc",
+  "locationId": "tn",
+  "devices": [
+    {
+      "_id": "mc007",
+      "devicename": {
+        "plc_device1_E3D255EC0B665558B99DE3134D6B1A98": "PL1"
+      },
+      "actuators": {
+        "Blower Control": 1
+      },
+      "registers": {
+        "P-1": "Pressure Sensor"
+      },
+      "write": {
+        "method": "do_mb_write",
+        "params": {}
+      },
+      "reads": {
+        "-OXs192E93fDDaBGEnPx": {
+          "plc_device1_E3D255EC0B665558B99DE3134D6B1A98": [
+            {
+              "ts": 1755434228138,
+              "values": {
+                "P-1": 0,
+                "P-3": 0,
+                "TEMP": 328,
+                "p-4": 10,
+                "p5": 1
+              }
+            }
+          ],
+          "plc_device_E3D255EC0B665558B99DE3134D6B1A98": [
+            {
+              "ts": 1755434228138,
+              "values": {
+                "P-1": 0,
+                "P-3": 0,
+                "TEMP": 328,
+                "p-2": 0,
+                "p-4": 0
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
